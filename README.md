@@ -86,9 +86,6 @@ Cortex-A7 + Linux，系统定制/移植，Modbus + Qt/C++ 上位机
 
 ---
 
-### 工程亮点
-
-- **OTA 三分区防变砖** — bsdiff 增量 + LZMA 压缩 + Bootloader 写保护 + 自动回滚
 - **Keil→GCC 全链路移植** — 链接脚本/启动文件/分散加载，自建 VSCode+EIDE+GCC 工具链
 - **2000 行调试复盘笔记** — GDB 三阶段排查 + HardFault 定位 + 逻辑分析仪/示波器
 
