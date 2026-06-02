@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Sonliy+%7C+Embedded+AI+Engineer;AI+on+MCU+%C2%B7+RT-Thread+%C2%B7+STM32;Build+AI+that+runs+on+silicon" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Sonliy+%7C+Embedded+AI+Engineer;MCU+%C2%B7+RT-Thread+%C2%B7+STM32;Build+AI+that+runs+on+silicon" alt="Typing SVG" />
 
 </div>
 
 <p align="center">
-  <b>嵌入式AI工程师</b> · 3年量产经验 · 4款产品 · 裸机/RTOS/Linux 全覆盖
+  <b>嵌入式软件工程师</b> · 3年量产经验 · 4款产品 · 裸机/RTOS/Linux 全覆盖
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 ### 关于我
 
-一名嵌入式 AI 工程师，目前在新能源行业做光伏逆变器新产品研发。核心方向是**把 AI 模型跑在单片机上** —— 从 TensorFlow 训练到 Cortex-M7 推理部署的全链路。
+一名嵌入式软件工程师，目前在新能源行业做光伏逆变器新产品研发。核心方向是**把 AI 模型跑在单片机上** —— 从 TensorFlow 训练到 Cortex-M7 推理部署的全链路。
 
 自主设计了一套 RT-Thread 应用框架 [rtthread-app-framework](https://github.com/Sonliy/rtthread-app-framework)，借鉴 QP/C Active Object 思想，用 OOP in C 落地了 dispatch/transition/state_handler 三层分离架构。
 
@@ -38,7 +38,7 @@
 | **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
 | **AI on MCU** | ★★★★★★★ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 1ms |
 | **调试能力** | ★★★★★★★ | GDB 三阶段排查，HardFault 定位，2000 行笔记 |
-| **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose/USB CDC |
+| **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose |
 | **Linux** | ★★★★★☆☆ | 内核裁剪/设备树/U-Boot/systemd |
 
 ---
