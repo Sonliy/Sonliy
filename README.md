@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/开源框架-rtthread--app--framework-2563EB?style=flat-square&logo=github" />
   </a>
   <img src="https://img.shields.io/badge/C-主力语言-2563EB?style=flat-square&logo=c" />
-  <img src="https://img.shields.io/badge/STM32-H7/M4-2563EB?style=flat-square&logo=stmicroelectronics" />
+  <img src="https://img.shields.io/badge/STM32-H7/GD32-2563EB?style=flat-square&logo=stmicroelectronics" />
   <img src="https://img.shields.io/badge/RT--Thread-源码级-2563EB?style=flat-square" />
   <img src="https://img.shields.io/badge/AI_on_MCU-量产-2563EB?style=flat-square&logo=tensorflow" />
 </p>
@@ -22,7 +22,7 @@
 
 ### 关于我
 
-一名嵌入式 AI 工程师，目前在新能源行业做光伏逆变器新产品研发。核心方向是**把 AI 模型跑在单片机上**——从 TensorFlow 训练到 Cortex-M7 推理部署的全链路。
+一名嵌入式 AI 工程师，目前在新能源行业做光伏逆变器新产品研发。核心方向是**把 AI 模型跑在单片机上** —— 从 TensorFlow 训练到 Cortex-M7 推理部署的全链路。
 
 自主设计了一套 RT-Thread 应用框架 [rtthread-app-framework](https://github.com/Sonliy/rtthread-app-framework)，借鉴 QP/C Active Object 思想，用 OOP in C 落地了 dispatch/transition/state_handler 三层分离架构。
 
@@ -64,15 +64,33 @@
 
 `RT-Thread` `OOP in C` `FSM/HSM` `SOLID` `GCC`
 
-#### Goose 工业以太网 — 清华合作
+#### 无线数据采集器 — 分布式光伏
 
-IEC 61850 GOOSE 协议栈 MCU 裸机移植，ASN.1 BER 编解码
+GD32 + 4G 模组，MQTT 双向数据链路，数据上云+远程控制+固件升级
 
 ```
-4000 行代码  |  量产 50 台  |  2 年稳定
+量产交付  |  MQTT 双向  |  固件升级
 ```
 
-`LwIP` `GOOSE` `GD32` `PHY驱动` `裸机`
+`GD32` `MQTT` `4G` `UART` `OTA`
+
+#### BMS 电池管理系统总控
+
+Cortex-A7 + Linux，系统定制/移植，Modbus + Qt/C++ 上位机
+
+```
+系统定制  |  设备树  |  RS485/CAN
+```
+
+`Linux` `Cortex-A7` `Modbus` `Qt/C++`
+
+---
+
+### 工程亮点
+
+- **OTA 三分区防变砖** — bsdiff 增量 + LZMA 压缩 + Bootloader 写保护 + 自动回滚
+- **Keil→GCC 全链路移植** — 链接脚本/启动文件/分散加载，自建 VSCode+EIDE+GCC 工具链
+- **2000 行调试复盘笔记** — GDB 三阶段排查 + HardFault 定位 + 逻辑分析仪/示波器
 
 ---
 
@@ -102,6 +120,11 @@ IEC 61850 GOOSE 协议栈 MCU 裸机移植，ASN.1 BER 编解码
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sonliy&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=default" height="140" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sonliy&layout=compact&hide_title=true&langs_count=6&theme=default" height="140" />
+</p>
 
 <p align="center">
   <sub>⚡ Build AI that runs on silicon ⚡</sub>
