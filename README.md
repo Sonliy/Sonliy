@@ -37,7 +37,7 @@
 | **架构设计** | ★★★★★★★★ | task_module_t 框架 800 行落地，三层分离 |
 | **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
 | **AI on MCU** | ★★★★★★★ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 1ms |
-| **调试能力** | ★★★★★★★ | GDB 三阶段排查，HardFault 定位，2000 行笔记 |
+| **调试能力** | ★★★★★★★ | 寄存器级调试，HardFault 定位，栈回朔 |
 | **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose |
 | **Linux** | ★★★★★☆☆ | 内核裁剪/设备树/U-Boot/systemd |
 
@@ -76,7 +76,7 @@ GD32 + 4G 模组，MQTT 双向数据链路，数据上云+远程控制+固件升
 
 #### BMS 电池管理系统总控
 
-Cortex-A7 + Linux，系统定制/移植，Modbus + Qt/C++ 上位机
+Cortex-A7 + Linux，系统定制/移植，Modbus + Qt/C++
 
 ```
 系统定制  |  设备树  |  RS485/CAN
@@ -85,9 +85,6 @@ Cortex-A7 + Linux，系统定制/移植，Modbus + Qt/C++ 上位机
 `Linux` `Cortex-A7` `Modbus` `Qt/C++`
 
 ---
-
-- **Keil→GCC 全链路移植** — 链接脚本/启动文件/分散加载，自建 VSCode+EIDE+GCC 工具链
-- **2000 行调试复盘笔记** — GDB 三阶段排查 + HardFault 定位 + 逻辑分析仪/示波器
 
 ---
 
