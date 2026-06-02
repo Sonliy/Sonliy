@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/开源框架-rtthread--app--framework-2563EB?style=flat-square&logo=github" />
   </a>
   <img src="https://img.shields.io/badge/C-主力语言-2563EB?style=flat-square&logo=c" />
-  <img src="https://img.shields.io/badge/STM32-H7/GD32-2563EB?style=flat-square&logo=stmicroelectronics" />
+  <img src="https://img.shields.io/badge/STM32H7/GD32F4-2563EB?style=flat-square&logo=stmicroelectronics" />
   <img src="https://img.shields.io/badge/RT--Thread-源码级-2563EB?style=flat-square" />
   <img src="https://img.shields.io/badge/AI_on_MCU-量产-2563EB?style=flat-square&logo=tensorflow" />
 </p>
