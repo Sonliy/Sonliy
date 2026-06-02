@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Sonliy+%7C+Embedded+Software+Engineer;%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1+%C2%B7+%E5%BA%95%E5%B1%82%E7%B3%BB%E7%BB%9F+%C2%B7+RTOS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Sonliy+%7C+Embedded+Software+Engineer;Architecture+%C2%B7+Low-Level+%C2%B7+RTOS" alt="Typing SVG" />
 
 </div>
 
