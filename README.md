@@ -1,0 +1,108 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Sonliy+%7C+Embedded+AI+Engineer;AI+on+MCU+%C2%B7+RT-Thread+%C2%B7+STM32;Build+AI+that+runs+on+silicon" alt="Typing SVG" />
+
+</div>
+
+<p align="center">
+  <b>嵌入式AI工程师</b> · 3年量产经验 · 4款产品 · 裸机/RTOS/Linux 全覆盖
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sonliy/rtthread-app-framework">
+    <img src="https://img.shields.io/badge/开源框架-rtthread--app--framework-2563EB?style=flat-square&logo=github" />
+  </a>
+  <img src="https://img.shields.io/badge/C-主力语言-2563EB?style=flat-square&logo=c" />
+  <img src="https://img.shields.io/badge/STM32-H7/M4-2563EB?style=flat-square&logo=stmicroelectronics" />
+  <img src="https://img.shields.io/badge/RT--Thread-源码级-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI_on_MCU-量产-2563EB?style=flat-square&logo=tensorflow" />
+</p>
+
+---
+
+### 关于我
+
+一名嵌入式 AI 工程师，目前在新能源行业做光伏逆变器新产品研发。核心方向是**把 AI 模型跑在单片机上**——从 TensorFlow 训练到 Cortex-M7 推理部署的全链路。
+
+自主设计了一套 RT-Thread 应用框架 [rtthread-app-framework](https://github.com/Sonliy/rtthread-app-framework)，借鉴 QP/C Active Object 思想，用 OOP in C 落地了 dispatch/transition/state_handler 三层分离架构。
+
+---
+
+### 技能矩阵
+
+| 维度 | 等级 | 核心能力 |
+|------|:--:|------|
+| **C 语言** | ★★★★★★☆ | 裸机/RTOS 生产级，函数指针/虚表/OOP in C |
+| **ARM/STM32** | ★★★★★★★ | H7 深入（MPU/Cache/时钟树/Linker），Keil→GCC 移植 |
+| **架构设计** | ★★★★★★★★ | task_module_t 框架 800 行落地，三层分离 |
+| **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
+| **AI on MCU** | ★★★★★★★ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 1ms |
+| **调试能力** | ★★★★★★★ | GDB 三阶段排查，HardFault 定位，2000 行笔记 |
+| **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose/USB CDC |
+| **Linux** | ★★★★★☆☆ | 内核裁剪/设备树/U-Boot/systemd |
+
+---
+
+### 代表项目
+
+#### AFCI 电弧故障检测 — AI on STM32H7
+330kW 光伏逆变器直流电弧实时检测，CNN 在 H7 上浮点推理
+
+```
+准确率 99.9%  |  漏报 0%  |  推理 < 1ms  |  误报 ≤ 3%
+```
+
+`TensorFlow` `Cube.AI` `CMSIS-DSP` `DMA双缓冲` `OTA` `Modbus RTU`
+
+#### RT-Thread 应用框架 — 开源
+
+自研 task_module_t 框架 + msg_bus 消息总线 + FSM 状态机
+
+```
+800 行核心  |  三层分离  |  零 malloc  |  OOP in C
+```
+
+`RT-Thread` `OOP in C` `FSM/HSM` `SOLID` `GCC`
+
+#### Goose 工业以太网 — 清华合作
+
+IEC 61850 GOOSE 协议栈 MCU 裸机移植，ASN.1 BER 编解码
+
+```
+4000 行代码  |  量产 50 台  |  2 年稳定
+```
+
+`LwIP` `GOOSE` `GD32` `PHY驱动` `裸机`
+
+---
+
+### 学术
+
+- **EI 论文 × 1**（一作）：Transformer + CNN 混合模型 — 超声心动图左心室分割，精度 97.5%
+- 控制科学与工程（模式识别）硕士
+
+---
+
+### 技术栈
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/RT--Thread-00BFFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FreeRTOS-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/CMSIS--DSP-2563EB?style=for-the-badge&logo=arm&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCC-A42E2B?style=for-the-badge&logo=gnu&logoColor=white" />
+  <img src="https://img.shields.io/badge/GDB-000000?style=for-the-badge&logo=gnu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Modbus-FF6600?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white" />
+  <img src="https://img.shields.io/badge/LwIP-00AA00?style=for-the-badge" />
+</p>
+
+---
+
+<p align="center">
+  <sub>⚡ Build AI that runs on silicon ⚡</sub>
+</p>
