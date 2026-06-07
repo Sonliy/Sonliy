@@ -38,7 +38,7 @@
 | **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
 | **调试能力** | ★★★★★★★ | 寄存器级调试，HardFault 定位，栈回溯 |
 | **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose |
-| **AI on MCU** | ★★★★★★☆ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 1ms |
+| **AI on MCU** | ★★★★★★☆ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 5ms |
 | **Linux** | ★★★★★☆☆ | 内核裁剪/设备树/U-Boot/systemd |
 
 ---
@@ -50,12 +50,12 @@
 自研 task_module_t 框架 + msg_bus 消息总线 + FSM 状态机，借鉴 QP/C Active Object 思想
 
 ```
-800 行核心  |  三层分离  |  零 malloc  |  OOP in C  |  SOLID
+300 行核心  |  三层分离  |  零 malloc  |  OOP in C  |  SOLID
 ```
 
 `RT-Thread` `OOP in C` `FSM/HSM` `SOLID` `GCC`
 
-#### AFCI 电弧故障检测 — 330kW 光伏逆变器
+#### AFCI 电弧故障检测 — 光伏逆变器
 
 CNN 模型在 STM32H7 上浮点推理，独立负责 MCU 嵌入式软件全链路
 
