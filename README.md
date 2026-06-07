@@ -33,7 +33,7 @@
 | 维度 | 等级 | 核心能力 |
 |------|:--:|------|
 | **C 语言** | ★★★★★★★ | 裸机/RTOS 生产级，函数指针/虚表/OOP in C/ |
-| **架构设计** | ★★★★★★★★ | task_module_t 框架 800 行落地，三层分离，SOLID in C |
+| **架构设计** | ★★★★★★★★ | task_module_t 框架 300 行落地，三层分离，SOLID in C |
 | **ARM/STM32** | ★★★★★★★ | H7/M4 深入（UART/ADC/DMA/SPI/Linker），Keil→GCC 移植 |
 | **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
 | **调试能力** | ★★★★★★★ | 寄存器级调试，HardFault 定位，栈回溯 |
