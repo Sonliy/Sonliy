@@ -22,7 +22,7 @@
 
 ### 关于我
 
-一名嵌入式软件工程师，目前在新能源行业做产品研发。核心方向是**嵌入式软件架构设计** —— 从裸机 Super-Loop 到 RTOS 应用框架，从 OOP in C 到 FSM/HSM 状态机，追求高内聚低耦合、可复用、可验证的嵌入式软件。
+一名嵌入式软件工程师，目前在新能源行业做产品研发。擅长从0到1开发新项目，核心方向是**嵌入式软件开发** —— 从裸机 Super-Loop 到 RTOS 应用框架，从 OOP in C 到 FSM/HSM 状态机，追求高内聚低耦合、可复用、可验证的嵌入式软件。
 
 自主设计并开源了一套 [RT-Thread 应用框架](https://github.com/Sonliy/rtthread-app-framework)，借鉴 QP/C Active Object 思想，用 OOP in C 落地了 dispatch/transition/state_handler 三层分离架构。AI on MCU（TF→Cube.AI→CMSIS-NN）是其中一个实践方向，但架构设计和底层系统才是主线。
 
