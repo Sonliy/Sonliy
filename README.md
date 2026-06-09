@@ -36,9 +36,9 @@
 | **架构设计** | ★★★★★★★★ | task_module_t 框架 300 行落地，三层分离，SOLID in C |
 | **ARM/STM32** | ★★★★★★★ | H7/M4 深入（UART/ADC/DMA/SPI/Linker），Keil→GCC 移植 |
 | **RTOS/系统** | ★★★★★★★ | RT-Thread 源码级，FreeRTOS，QP/C HSM |
-| **调试能力** | ★★★★★★★ | 寄存器级调试，HardFault 定位，栈回溯 |
+| **调试能力** | ★★★★★★★ | 寄存器级调试，HardFault 定位，栈回溯 ,GDB |
 | **网络协议** | ★★★★★★☆ | Modbus/MQTT/LwIP/Goose |
-| **AI on MCU** | ★★★★★★☆ | TF→Cube.AI→CMSIS-DSP，CNN 浮点推理 < 5ms |
+| **AI on MCU** | ★★★★★★☆ | TF→Cube.AI→CMSIS-/NN/DSP，CNN 浮点推理 < 5ms |
 | **Linux** | ★★★★★☆☆ | 内核裁剪/设备树/U-Boot/systemd |
 
 ---
