@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/C-主力语言-2563EB?style=flat-square&logo=c" />
   <img src="https://img.shields.io/badge/MCU-STM32H7/GD32F4-2563EB?style=flat-square&logo=stmicroelectronics" />
   <img src="https://img.shields.io/badge/RT--Thread-自研框架-2563EB?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI on MCU-加分项-2563EB?style=flat-square&logo=tensorflow" />
+  <img src="https://img.shields.io/badge/CNN on MCU-AI-2563EB?style=flat-square&logo=tensorflow" />
 </p>
 
 ---
